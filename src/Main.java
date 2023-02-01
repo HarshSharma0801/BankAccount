@@ -4,5 +4,10 @@ public class Main {
        bobsAccount.withdrawFunds(100.0);
        bobsAccount.depositFunds(250.0);
        bobsAccount.withdrawFunds(50.0);
+       bobsAccount.withdrawFunds(200.0);
+        bobsAccount.depositFunds(100.0);
+
+
+
     }
 }
