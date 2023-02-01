@@ -6,6 +6,8 @@ public class Main {
        bobsAccount.withdrawFunds(50.0);
        bobsAccount.withdrawFunds(200.0);
         bobsAccount.depositFunds(100.0);
+        bobsAccount.withdrawFunds(45.55);
+        bobsAccount.withdrawFunds(54.55);
 
 
 
