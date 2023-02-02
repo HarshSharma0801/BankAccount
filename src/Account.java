@@ -8,6 +8,15 @@ public class Account {
     public String getNumber() {
         return number;
     }
+    public Account(String number , double balance,String customerName,String email,String phone){
+        System.out.println("Account constructor with parameters called");
+        this.number = number;
+        this.balance=balance;
+        this.customerName=customerName;
+        customerEmail = email;
+        customerPhone = phone;
+
+    }
     public void depositFunds(double depositAmount){
         balance+=depositAmount;
         System.out.println("Deposit of $"+depositAmount+" made. New balance is $"+balance);
