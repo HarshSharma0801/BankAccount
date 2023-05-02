@@ -1,2 +1,2 @@
 # BankChallenge
- code written in Java 
+ code written in Java language 
